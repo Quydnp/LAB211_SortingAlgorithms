@@ -45,7 +45,7 @@ public class SortingProgramming extends Menu<String>{
     }
 
     private void sort() {
-        final String[] mcSort = {"Buddle Sort", "Quick Sort", "Exit"};
+        final String[] mcSort = {"Bubble Sort", "Quick Sort", "Exit"};
         class SortMenu extends Menu<String> {
 
             public SortMenu() {
@@ -59,7 +59,7 @@ public class SortingProgramming extends Menu<String>{
                 switch (n) {
                     case 1:
                         algorithm.bubbleSort(array);
-                        System.out.println("\nSorted array by Buddle Sort: ");
+                        System.out.println("\nSorted array by Bubble Sort: ");
                         library.displayArray(array);
                         System.out.println("");
                         break;
